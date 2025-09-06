@@ -1,0 +1,6 @@
+G = 6.67*10**(-11)
+a = float(input('Please board M:'))
+b = float(input('plese board m:'))
+c = float(input('plese board type r:'))
+d = (G*a*b)/(c**2)
+print('%.10f N'%(d))
